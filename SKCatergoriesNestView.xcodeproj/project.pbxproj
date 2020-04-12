@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C438EC0243D22F0E8253C64 /* libPods-SKCatergoriesNestView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC068884F9ECAF20EC2F26F9 /* libPods-SKCatergoriesNestView.a */; };
+		9B35A5AD9B67A24342502EEE /* libPods-SKCatergoriesNestViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86479957327C2FB5A915E3C9 /* libPods-SKCatergoriesNestViewUITests.a */; };
+		E16589E82443269C00C59E47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E16589E72443269C00C59E47 /* AppDelegate.m */; };
+		E16589EE2443269C00C59E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16589EC2443269C00C59E47 /* Main.storyboard */; };
+		E16589F02443269F00C59E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16589EF2443269F00C59E47 /* Assets.xcassets */; };
+		E16589F32443269F00C59E47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16589F12443269F00C59E47 /* LaunchScreen.storyboard */; };
+		E16589F62443269F00C59E47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E16589F52443269F00C59E47 /* main.m */; };
+		E1658A002443269F00C59E47 /* SKCatergoriesNestViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16589FF2443269F00C59E47 /* SKCatergoriesNestViewTests.m */; };
+		E1658A0B2443269F00C59E47 /* SKCatergoriesNestViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1658A0A2443269F00C59E47 /* SKCatergoriesNestViewUITests.m */; };
+		E1658A212443276900C59E47 /* SKScrollerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E1658A202443276900C59E47 /* SKScrollerButton.m */; };
+		E1658A242443278F00C59E47 /* SKScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1658A232443278F00C59E47 /* SKScrollView.m */; };
+		E1658A272443286500C59E47 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = E1658A252443286400C59E47 /* NSString+Size.m */; };
+		E1658A332443309700C59E47 /* SKMainScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1658A322443309700C59E47 /* SKMainScrollerView.m */; };
+		E1658A362443329C00C59E47 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1658A352443329C00C59E47 /* MainViewController.m */; };
+		E1658A392443331A00C59E47 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1658A382443331A00C59E47 /* SubViewController.m */; };
+		E1658A3C2443336300C59E47 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1658A3B2443336300C59E47 /* ThirdViewController.m */; };
+		EB6986E1AA4FF3F575622297 /* libPods-SKCatergoriesNestViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27191C960F212AC180351108 /* libPods-SKCatergoriesNestViewTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E16589FC2443269F00C59E47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16589DB2443269C00C59E47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16589E22443269C00C59E47;
+			remoteInfo = SKCatergoriesNestView;
+		};
+		E1658A072443269F00C59E47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16589DB2443269C00C59E47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16589E22443269C00C59E47;
+			remoteInfo = SKCatergoriesNestView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27191C960F212AC180351108 /* libPods-SKCatergoriesNestViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKCatergoriesNestViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		315CAD5D3D4194485C3218AB /* Pods-SKCatergoriesNestView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKCatergoriesNestView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKCatergoriesNestView/Pods-SKCatergoriesNestView.debug.xcconfig"; sourceTree = "<group>"; };
+		86479957327C2FB5A915E3C9 /* libPods-SKCatergoriesNestViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKCatergoriesNestViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94794AFD0F5499F9913DDEC5 /* Pods-SKCatergoriesNestViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKCatergoriesNestViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKCatergoriesNestViewTests/Pods-SKCatergoriesNestViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A242BDC519A17BF2A0FFEA70 /* Pods-SKCatergoriesNestViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKCatergoriesNestViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKCatergoriesNestViewTests/Pods-SKCatergoriesNestViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC068884F9ECAF20EC2F26F9 /* libPods-SKCatergoriesNestView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKCatergoriesNestView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16589E32443269C00C59E47 /* SKCatergoriesNestView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKCatergoriesNestView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16589E62443269C00C59E47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E16589E72443269C00C59E47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E16589ED2443269C00C59E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E16589EF2443269F00C59E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E16589F22443269F00C59E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E16589F42443269F00C59E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16589F52443269F00C59E47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E16589FB2443269F00C59E47 /* SKCatergoriesNestViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKCatergoriesNestViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16589FF2443269F00C59E47 /* SKCatergoriesNestViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCatergoriesNestViewTests.m; sourceTree = "<group>"; };
+		E1658A012443269F00C59E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1658A062443269F00C59E47 /* SKCatergoriesNestViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKCatergoriesNestViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1658A0A2443269F00C59E47 /* SKCatergoriesNestViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCatergoriesNestViewUITests.m; sourceTree = "<group>"; };
+		E1658A0C2443269F00C59E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1658A1F2443276900C59E47 /* SKScrollerButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKScrollerButton.h; sourceTree = "<group>"; };
+		E1658A202443276900C59E47 /* SKScrollerButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKScrollerButton.m; sourceTree = "<group>"; };
+		E1658A222443278F00C59E47 /* SKScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKScrollView.h; sourceTree = "<group>"; };
+		E1658A232443278F00C59E47 /* SKScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKScrollView.m; sourceTree = "<group>"; };
+		E1658A252443286400C59E47 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		E1658A262443286500C59E47 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		E1658A2D24432C7900C59E47 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E1658A312443309700C59E47 /* SKMainScrollerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKMainScrollerView.h; sourceTree = "<group>"; };
+		E1658A322443309700C59E47 /* SKMainScrollerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKMainScrollerView.m; sourceTree = "<group>"; };
+		E1658A342443329C00C59E47 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E1658A352443329C00C59E47 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E1658A372443331A00C59E47 /* SubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		E1658A382443331A00C59E47 /* SubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		E1658A3A2443336300C59E47 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		E1658A3B2443336300C59E47 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		E8CAA8AAF0C4CE69863969E3 /* Pods-SKCatergoriesNestViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKCatergoriesNestViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKCatergoriesNestViewUITests/Pods-SKCatergoriesNestViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E96A9134CA9A5D48E7E4906A /* Pods-SKCatergoriesNestView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKCatergoriesNestView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKCatergoriesNestView/Pods-SKCatergoriesNestView.release.xcconfig"; sourceTree = "<group>"; };
+		FFD624ABE50AFC6FB5526225 /* Pods-SKCatergoriesNestViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKCatergoriesNestViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKCatergoriesNestViewUITests/Pods-SKCatergoriesNestViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E16589E02443269C00C59E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C438EC0243D22F0E8253C64 /* libPods-SKCatergoriesNestView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16589F82443269F00C59E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6986E1AA4FF3F575622297 /* libPods-SKCatergoriesNestViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1658A032443269F00C59E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B35A5AD9B67A24342502EEE /* libPods-SKCatergoriesNestViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26FD558946810CFC4E09354D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC068884F9ECAF20EC2F26F9 /* libPods-SKCatergoriesNestView.a */,
+				27191C960F212AC180351108 /* libPods-SKCatergoriesNestViewTests.a */,
+				86479957327C2FB5A915E3C9 /* libPods-SKCatergoriesNestViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E7C48D93A8AA495893C758D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				315CAD5D3D4194485C3218AB /* Pods-SKCatergoriesNestView.debug.xcconfig */,
+				E96A9134CA9A5D48E7E4906A /* Pods-SKCatergoriesNestView.release.xcconfig */,
+				94794AFD0F5499F9913DDEC5 /* Pods-SKCatergoriesNestViewTests.debug.xcconfig */,
+				A242BDC519A17BF2A0FFEA70 /* Pods-SKCatergoriesNestViewTests.release.xcconfig */,
+				E8CAA8AAF0C4CE69863969E3 /* Pods-SKCatergoriesNestViewUITests.debug.xcconfig */,
+				FFD624ABE50AFC6FB5526225 /* Pods-SKCatergoriesNestViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E16589DA2443269C00C59E47 = {
+			isa = PBXGroup;
+			children = (
+				E16589E52443269C00C59E47 /* SKCatergoriesNestView */,
+				E16589FE2443269F00C59E47 /* SKCatergoriesNestViewTests */,
+				E1658A092443269F00C59E47 /* SKCatergoriesNestViewUITests */,
+				E16589E42443269C00C59E47 /* Products */,
+				3E7C48D93A8AA495893C758D /* Pods */,
+				26FD558946810CFC4E09354D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E16589E42443269C00C59E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E16589E32443269C00C59E47 /* SKCatergoriesNestView.app */,
+				E16589FB2443269F00C59E47 /* SKCatergoriesNestViewTests.xctest */,
+				E1658A062443269F00C59E47 /* SKCatergoriesNestViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E16589E52443269C00C59E47 /* SKCatergoriesNestView */ = {
+			isa = PBXGroup;
+			children = (
+				E1658A18244326D900C59E47 /* SKCatergoriesView */,
+				E1658A342443329C00C59E47 /* MainViewController.h */,
+				E1658A352443329C00C59E47 /* MainViewController.m */,
+				E1658A372443331A00C59E47 /* SubViewController.h */,
+				E1658A382443331A00C59E47 /* SubViewController.m */,
+				E1658A3A2443336300C59E47 /* ThirdViewController.h */,
+				E1658A3B2443336300C59E47 /* ThirdViewController.m */,
+				E1658A4324436AE900C59E47 /* SupportingFiles */,
+			);
+			path = SKCatergoriesNestView;
+			sourceTree = "<group>";
+		};
+		E16589FE2443269F00C59E47 /* SKCatergoriesNestViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E16589FF2443269F00C59E47 /* SKCatergoriesNestViewTests.m */,
+				E1658A012443269F00C59E47 /* Info.plist */,
+			);
+			path = SKCatergoriesNestViewTests;
+			sourceTree = "<group>";
+		};
+		E1658A092443269F00C59E47 /* SKCatergoriesNestViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1658A0A2443269F00C59E47 /* SKCatergoriesNestViewUITests.m */,
+				E1658A0C2443269F00C59E47 /* Info.plist */,
+			);
+			path = SKCatergoriesNestViewUITests;
+			sourceTree = "<group>";
+		};
+		E1658A18244326D900C59E47 /* SKCatergoriesView */ = {
+			isa = PBXGroup;
+			children = (
+				E1658A312443309700C59E47 /* SKMainScrollerView.h */,
+				E1658A322443309700C59E47 /* SKMainScrollerView.m */,
+				E1658A1F2443276900C59E47 /* SKScrollerButton.h */,
+				E1658A202443276900C59E47 /* SKScrollerButton.m */,
+				E1658A222443278F00C59E47 /* SKScrollView.h */,
+				E1658A232443278F00C59E47 /* SKScrollView.m */,
+				E1658A262443286500C59E47 /* NSString+Size.h */,
+				E1658A252443286400C59E47 /* NSString+Size.m */,
+			);
+			path = SKCatergoriesView;
+			sourceTree = "<group>";
+		};
+		E1658A4324436AE900C59E47 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E16589EC2443269C00C59E47 /* Main.storyboard */,
+				E16589EF2443269F00C59E47 /* Assets.xcassets */,
+				E16589F12443269F00C59E47 /* LaunchScreen.storyboard */,
+				E16589F42443269F00C59E47 /* Info.plist */,
+				E16589F52443269F00C59E47 /* main.m */,
+				E1658A2D24432C7900C59E47 /* PrefixHeader.pch */,
+				E16589E62443269C00C59E47 /* AppDelegate.h */,
+				E16589E72443269C00C59E47 /* AppDelegate.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16589E22443269C00C59E47 /* SKCatergoriesNestView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1658A0F2443269F00C59E47 /* Build configuration list for PBXNativeTarget "SKCatergoriesNestView" */;
+			buildPhases = (
+				EDCDB5C92038EB6CE4924340 /* [CP] Check Pods Manifest.lock */,
+				E16589DF2443269C00C59E47 /* Sources */,
+				E16589E02443269C00C59E47 /* Frameworks */,
+				E16589E12443269C00C59E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKCatergoriesNestView;
+			productName = SKCatergoriesNestView;
+			productReference = E16589E32443269C00C59E47 /* SKCatergoriesNestView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E16589FA2443269F00C59E47 /* SKCatergoriesNestViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1658A122443269F00C59E47 /* Build configuration list for PBXNativeTarget "SKCatergoriesNestViewTests" */;
+			buildPhases = (
+				E3913E029B6A108074BE3F66 /* [CP] Check Pods Manifest.lock */,
+				E16589F72443269F00C59E47 /* Sources */,
+				E16589F82443269F00C59E47 /* Frameworks */,
+				E16589F92443269F00C59E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16589FD2443269F00C59E47 /* PBXTargetDependency */,
+			);
+			name = SKCatergoriesNestViewTests;
+			productName = SKCatergoriesNestViewTests;
+			productReference = E16589FB2443269F00C59E47 /* SKCatergoriesNestViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1658A052443269F00C59E47 /* SKCatergoriesNestViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1658A152443269F00C59E47 /* Build configuration list for PBXNativeTarget "SKCatergoriesNestViewUITests" */;
+			buildPhases = (
+				9ED8C874B683FEA90B504E9A /* [CP] Check Pods Manifest.lock */,
+				E1658A022443269F00C59E47 /* Sources */,
+				E1658A032443269F00C59E47 /* Frameworks */,
+				E1658A042443269F00C59E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1658A082443269F00C59E47 /* PBXTargetDependency */,
+			);
+			name = SKCatergoriesNestViewUITests;
+			productName = SKCatergoriesNestViewUITests;
+			productReference = E1658A062443269F00C59E47 /* SKCatergoriesNestViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E16589DB2443269C00C59E47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = KentSun;
+				TargetAttributes = {
+					E16589E22443269C00C59E47 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					E16589FA2443269F00C59E47 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = E16589E22443269C00C59E47;
+					};
+					E1658A052443269F00C59E47 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = E16589E22443269C00C59E47;
+					};
+				};
+			};
+			buildConfigurationList = E16589DE2443269C00C59E47 /* Build configuration list for PBXProject "SKCatergoriesNestView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E16589DA2443269C00C59E47;
+			productRefGroup = E16589E42443269C00C59E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E16589E22443269C00C59E47 /* SKCatergoriesNestView */,
+				E16589FA2443269F00C59E47 /* SKCatergoriesNestViewTests */,
+				E1658A052443269F00C59E47 /* SKCatergoriesNestViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16589E12443269C00C59E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16589F32443269F00C59E47 /* LaunchScreen.storyboard in Resources */,
+				E16589F02443269F00C59E47 /* Assets.xcassets in Resources */,
+				E16589EE2443269C00C59E47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16589F92443269F00C59E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1658A042443269F00C59E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9ED8C874B683FEA90B504E9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKCatergoriesNestViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3913E029B6A108074BE3F66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKCatergoriesNestViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDCDB5C92038EB6CE4924340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKCatergoriesNestView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16589DF2443269C00C59E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1658A242443278F00C59E47 /* SKScrollView.m in Sources */,
+				E1658A362443329C00C59E47 /* MainViewController.m in Sources */,
+				E16589F62443269F00C59E47 /* main.m in Sources */,
+				E16589E82443269C00C59E47 /* AppDelegate.m in Sources */,
+				E1658A3C2443336300C59E47 /* ThirdViewController.m in Sources */,
+				E1658A392443331A00C59E47 /* SubViewController.m in Sources */,
+				E1658A272443286500C59E47 /* NSString+Size.m in Sources */,
+				E1658A332443309700C59E47 /* SKMainScrollerView.m in Sources */,
+				E1658A212443276900C59E47 /* SKScrollerButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16589F72443269F00C59E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1658A002443269F00C59E47 /* SKCatergoriesNestViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1658A022443269F00C59E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1658A0B2443269F00C59E47 /* SKCatergoriesNestViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E16589FD2443269F00C59E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16589E22443269C00C59E47 /* SKCatergoriesNestView */;
+			targetProxy = E16589FC2443269F00C59E47 /* PBXContainerItemProxy */;
+		};
+		E1658A082443269F00C59E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16589E22443269C00C59E47 /* SKCatergoriesNestView */;
+			targetProxy = E1658A072443269F00C59E47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E16589EC2443269C00C59E47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16589ED2443269C00C59E47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E16589F12443269F00C59E47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16589F22443269F00C59E47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1658A0D2443269F00C59E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1658A0E2443269F00C59E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1658A102443269F00C59E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315CAD5D3D4194485C3218AB /* Pods-SKCatergoriesNestView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F8E7JE29H;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKCatergoriesNestView/SupportingFiles/PrefixHeader.pch";
+				INFOPLIST_FILE = SKCatergoriesNestView/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKCatergoriesNestView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1658A112443269F00C59E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96A9134CA9A5D48E7E4906A /* Pods-SKCatergoriesNestView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F8E7JE29H;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKCatergoriesNestView/SupportingFiles/PrefixHeader.pch";
+				INFOPLIST_FILE = SKCatergoriesNestView/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKCatergoriesNestView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1658A132443269F00C59E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94794AFD0F5499F9913DDEC5 /* Pods-SKCatergoriesNestViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F8E7JE29H;
+				INFOPLIST_FILE = SKCatergoriesNestViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKCatergoriesNestViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKCatergoriesNestView.app/SKCatergoriesNestView";
+			};
+			name = Debug;
+		};
+		E1658A142443269F00C59E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A242BDC519A17BF2A0FFEA70 /* Pods-SKCatergoriesNestViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F8E7JE29H;
+				INFOPLIST_FILE = SKCatergoriesNestViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKCatergoriesNestViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKCatergoriesNestView.app/SKCatergoriesNestView";
+			};
+			name = Release;
+		};
+		E1658A162443269F00C59E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8CAA8AAF0C4CE69863969E3 /* Pods-SKCatergoriesNestViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F8E7JE29H;
+				INFOPLIST_FILE = SKCatergoriesNestViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKCatergoriesNestViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKCatergoriesNestView;
+			};
+			name = Debug;
+		};
+		E1658A172443269F00C59E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD624ABE50AFC6FB5526225 /* Pods-SKCatergoriesNestViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F8E7JE29H;
+				INFOPLIST_FILE = SKCatergoriesNestViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKCatergoriesNestViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKCatergoriesNestView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E16589DE2443269C00C59E47 /* Build configuration list for PBXProject "SKCatergoriesNestView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1658A0D2443269F00C59E47 /* Debug */,
+				E1658A0E2443269F00C59E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1658A0F2443269F00C59E47 /* Build configuration list for PBXNativeTarget "SKCatergoriesNestView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1658A102443269F00C59E47 /* Debug */,
+				E1658A112443269F00C59E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1658A122443269F00C59E47 /* Build configuration list for PBXNativeTarget "SKCatergoriesNestViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1658A132443269F00C59E47 /* Debug */,
+				E1658A142443269F00C59E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1658A152443269F00C59E47 /* Build configuration list for PBXNativeTarget "SKCatergoriesNestViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1658A162443269F00C59E47 /* Debug */,
+				E1658A172443269F00C59E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E16589DB2443269C00C59E47 /* Project object */;
+}
