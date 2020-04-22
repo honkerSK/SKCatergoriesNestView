@@ -50,6 +50,7 @@
 		94794AFD0F5499F9913DDEC5 /* Pods-SKCatergoriesNestViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKCatergoriesNestViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKCatergoriesNestViewTests/Pods-SKCatergoriesNestViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A242BDC519A17BF2A0FFEA70 /* Pods-SKCatergoriesNestViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKCatergoriesNestViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKCatergoriesNestViewTests/Pods-SKCatergoriesNestViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		BC068884F9ECAF20EC2F26F9 /* libPods-SKCatergoriesNestView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKCatergoriesNestView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1126B1924503AD50050DB70 /* SKCatergoriesNestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCatergoriesNestView.h; sourceTree = "<group>"; };
 		E16589E32443269C00C59E47 /* SKCatergoriesNestView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKCatergoriesNestView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16589E62443269C00C59E47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E16589E72443269C00C59E47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -193,6 +194,7 @@
 		E1658A18244326D900C59E47 /* SKCatergoriesView */ = {
 			isa = PBXGroup;
 			children = (
+				E1126B1924503AD50050DB70 /* SKCatergoriesNestView.h */,
 				E1658A312443309700C59E47 /* SKMainScrollerView.h */,
 				E1658A322443309700C59E47 /* SKMainScrollerView.m */,
 				E1658A1F2443276900C59E47 /* SKScrollerButton.h */,

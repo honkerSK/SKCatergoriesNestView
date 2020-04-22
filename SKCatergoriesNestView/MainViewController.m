@@ -27,6 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    //PrefixHeader.pch 导入 SKCatergoriesNestView.h
     WeakSelf
     NSArray <NSString *>*titles = @[@"头条",@"游戏",@"数码"];
     SKMainScrollerView *scroll = [[SKMainScrollerView alloc] initWithFrame:CGRectMake(0, kSafeAreaTopHeight(), nScreenWidth(), nScreenHeight()-kSafeAreaTopHeight())];
